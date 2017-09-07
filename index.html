@@ -4,8 +4,14 @@
   <style type="text/css">
     body {
       font-family : verdana, sans-serif;
+    }
+    .blank_row
+    {
+    height: 10px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
     }  
   </style>
+
   </head>
   <body>
     <table width="100%">
@@ -40,8 +46,16 @@
                   <tr>
                     <td></td><td>46022 Valencia, Spain</td> 
                   </tr>
+                  <tr><td><br></td></tr>
+                  <tr>    
+                  <td><b>Links:</b></td>
+                  <td>
+                  [<a href="https://baha.github.io/">Blog</a>
+                  | <a href="https://github.com/Baha">GitHub</a>
+                  | <a href="https://www.researchgate.net/profile/Adrian_Palacios">ResearchGate</a>]
+                  </td>
+                  </tr>
                 </table>
-
               </td>
             </tr>
           </table>
@@ -81,7 +95,7 @@
     </p>
 
     <p>
-    <b>Towards Reversible Computation in Erlang</b><br>
+    <b>A Reversible Semantics for Erlang</b><br>
     N. Nishida, A. Palacios and G. Vidal<br>
     <i>LOPSTR 2016, Edinburgh</i> [<a
     href="http://users.dsic.upv.es/~gvidal/german/lopstr16b/paper.pdf">PDF</a> | <a
